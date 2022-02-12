@@ -1,4 +1,4 @@
-typedef struct _element element;
+typedef struct _el element;
 element *new_element(int data);
 element *get_element_address(element *node_ptr);
 element *get_element_next_address(element *node_ptr);

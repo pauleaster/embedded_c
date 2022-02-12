@@ -1,0 +1,20 @@
+2022-02-12 22:57:06 TRACE main.c:27: 0x55f4f2094480
+2022-02-12 22:57:06 TRACE llist.c:42: New element 0x55f4f2094700
+2022-02-12 22:57:06 TRACE llist.c:44: New element address confirmation 0x55f4f2094700
+2022-02-12 22:57:06 TRACE llist.c:45: New element data 3
+2022-02-12 22:57:06 TRACE llist.c:42: New element 0x55f4f2094720
+2022-02-12 22:57:06 TRACE llist.c:44: New element address confirmation 0x55f4f2094720
+2022-02-12 22:57:06 TRACE llist.c:45: New element data -7
+2022-02-12 22:57:06 TRACE llist.c:42: New element 0x55f4f2094740
+2022-02-12 22:57:06 TRACE llist.c:44: New element address confirmation 0x55f4f2094740
+2022-02-12 22:57:06 TRACE llist.c:45: New element data 15
+2022-02-12 22:57:06 TRACE main.c:36: loop: tv = 0x55f4f2094760
+2022-02-12 22:57:06 TRACE main.c:37: loop: num elements[tv] = 3
+2022-02-12 22:57:06 TRACE llist.c:83: get_data[0x55f4f2094760]=3
+2022-02-12 22:57:06 TRACE main.c:36: loop: tv = 0x55f4f2094760
+2022-02-12 22:57:06 TRACE main.c:37: loop: num elements[tv] = 2
+2022-02-12 22:57:06 TRACE llist.c:83: get_data[0x55f4f2094760]=-7
+2022-02-12 22:57:06 TRACE main.c:36: loop: tv = 0x55f4f2094760
+2022-02-12 22:57:06 TRACE main.c:37: loop: num elements[tv] = 1
+2022-02-12 22:57:06 TRACE llist.c:83: get_data[0x55f4f2094760]=15
+2022-02-12 22:57:06 TRACE main.c:41: Finished

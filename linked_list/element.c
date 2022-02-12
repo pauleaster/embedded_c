@@ -4,7 +4,7 @@
 #include <stdlib.h>
 #include <stdio.h>
 
-typedef struct _element
+typedef struct _el
 {
     int data;
     void *next;
@@ -16,6 +16,13 @@ element *new_element(int data)
     new_el->data = data;
     new_el->next = NULL;
     return new_el;
+}
+
+element *delete_element(element **node_ptr)
+{
+    element *next = (*node_ptr)->next;
+    free(*node_ptr);
+    return (next);
 }
 
 element *get_element_address(element *node_ptr)
