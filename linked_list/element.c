@@ -11,6 +11,7 @@ typedef struct _el
 } element;
 
 element *new_element(int data)
+// to_do(): add reference counter
 {
     element *new_el = (element *)malloc(sizeof(element));
     new_el->data = data;
