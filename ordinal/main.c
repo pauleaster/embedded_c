@@ -47,10 +47,10 @@ int main(void)
 
     for (i = 1; i <= 200; i++)
     {
-        printf("| Ordinal[%3d] = \"%s\" ", i, ordinal(i));
-        if ((i % 4) == 0)
+        printf(" %3d%s ", i, ordinal(i));
+        if ((i % 20) == 0)
         {
-            printf("|\n");
+            printf("\n");
         }
     }
     return 0;
