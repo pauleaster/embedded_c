@@ -25,7 +25,7 @@ int is_value_in_deck(int *deck, int value, int deck_size)
 
     for (i = 0; i < deck_size; i++)
     {
-        if (*(deck + i) == value)
+        if (deck[i] == value)
         {
             return !FALSE;
         }
@@ -47,7 +47,7 @@ void init_deck(int *deck)
             value = rand() % NUM_CARDS;
             in_deck = is_value_in_deck(deck, value, i);
         }
-        *(deck + i) = value; // deck[i] = value
+        deck[i] = value; // *(deck + i) = value;
     }
 }
 
